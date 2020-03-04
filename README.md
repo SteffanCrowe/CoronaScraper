@@ -9,7 +9,7 @@
 4) pip install -r requirements.txt
 
 ## Run
-After installation just run Startup.bat
-Every 60 seconds it will check https://www.worldometers.info/coronavirus/
-If there is a difference in the UK number it will notify you and log to the console
-It only runs while the console is open
+After installation just run Startup.bat  
+Every 60 seconds it will check https://www.worldometers.info/coronavirus/  
+If there is a difference in the UK number it will notify you and log to the console  
+It only runs while the console is open  
