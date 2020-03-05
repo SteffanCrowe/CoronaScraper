@@ -21,7 +21,7 @@ class Scraper:
             cols = row.find_all('td')
             countryName = cols[0].find(text=True)
 
-            if countryName.startswith(' U.K.'):
+            if countryName.startswith(' UK'):
                 numInfected = cols[1].find(text=True)
                 return numInfected
         return 0
